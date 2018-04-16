@@ -2,6 +2,7 @@ package com.example.svankayalapati.samplecontainerlwc.model;
 
 import android.content.Context;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.example.svankayalapati.samplecontainerlwc.R;
 import com.example.svankayalapati.samplecontainerlwc.beans.ListItem;
@@ -135,7 +136,8 @@ public class ContainerCreationRemovalModel extends BaseModel {
 									+ requestid);
 				}
 			} catch (SecurityException e) {
-				Log.e(TAG, e.getMessage());
+				//Log.e(TAG, e.getMessage());
+			   //Toast.makeText(this, "Restrictions Applied", Toast.LENGTH_SHORT).show();
 			}
 			break;
 

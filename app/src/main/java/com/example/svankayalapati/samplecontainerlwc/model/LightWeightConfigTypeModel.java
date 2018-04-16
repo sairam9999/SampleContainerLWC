@@ -92,6 +92,7 @@ public class LightWeightConfigTypeModel extends BaseModel {
 	 * 'ActivityLauncher'. It will be used to launch an activity after calling a
 	 * KNOX API.
 	 */
+
 	@Override
 	public void invokeKNOXAPI(ListItem listItemObj, String userEnteredData,
 			ActivityLauncher activityLauncher) {
